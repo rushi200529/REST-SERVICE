@@ -1,0 +1,10 @@
+CREATE DATABASE productdb;
+
+USE productdb;
+
+CREATE TABLE product(
+id INT PRIMARY KEY,
+Product_Name VARCHAR(50),
+Quantity INT,
+Expiry_date DATE
+);

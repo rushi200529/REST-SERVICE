@@ -1,0 +1,11 @@
+CREATE DATABASE studentdb;
+
+USE studentdb;
+
+CREATE TABLE student(
+id INT PRIMARY KEY,
+Student_Name VARCHAR(50),
+age INT,
+Phone_no VARCHAR(15),
+Subject VARCHAR(50)
+);

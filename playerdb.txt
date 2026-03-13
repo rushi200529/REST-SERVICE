@@ -1,0 +1,11 @@
+CREATE DATABASE playerdb;
+
+USE playerdb;
+
+CREATE TABLE player(
+id INT PRIMARY KEY,
+Player_Name VARCHAR(50),
+age INT,
+Country VARCHAR(50),
+Runs INT
+);

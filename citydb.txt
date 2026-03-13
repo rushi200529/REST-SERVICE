@@ -1,0 +1,11 @@
+CREATE DATABASE citydb;
+
+USE citydb;
+
+CREATE TABLE city(
+id INT PRIMARY KEY,
+City_Name VARCHAR(50),
+District_Name VARCHAR(50),
+Population INT
+);
+
